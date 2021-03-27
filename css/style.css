@@ -172,3 +172,79 @@ a {
     font-weight: 700;
     text-transform: uppercase;
 }
+
+/* start Main */
+.main .section-title h2 {
+  font-weight: 600;
+
+  font-size: 36px;
+  color: #1e1e1e;
+}
+
+.main .section-title h2 span {
+  color: #a4c639;
+}
+
+.main .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main .section-title {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+
+.main .section-title p {
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.main .services {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  width: 33.3%;
+  background-color: #f7f7f7;
+  margin: 0 15px;
+}
+
+.cards img {
+  width: 100%;
+}
+
+.card-caption {
+  padding: 30px;
+}
+
+.card-caption h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.card-caption p {
+  font-size: 14px;
+  margin-bottom: 25px;
+  line-height: 30px;
+}
+
+.card-caption a {
+  padding: 12px 30px;
+  background-color: #a4c639;
+  border-radius: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 0.5s;
+}
+
+.card-caption a:hover {
+  background-color: #fff;
+  color: #a4c639;
+}
+
+/* end Main */
