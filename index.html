@@ -70,7 +70,6 @@
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
             </div>
             <a class="btn btn-border btrequest" href="#">Contact Us</a>
-
             <div class="clear"></div>
         </div>
     </div>
@@ -196,6 +195,37 @@
         </div>
     </div>
     <!-- end article -->
+
+    <!-- Callback Form-->
+    <div class="callback-form">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Request a <em>call back</em></h2>
+                <span>Ajukan permintaan untuk menghubungi anda</span>
+            </div>
+            <div class="contact-form">
+                <form id="contact" action="" method="post">
+                    <div class="form-flex">
+                        <div class="form-col">
+                            <input name="name" class="form-control" id="name" autocomplete="off" required="" type="text" placeholder="Full Name">
+                        </div>
+                        <div class="form-col">
+                            <input name="email" class="form-control" id="email" autocomplete="off" required="" type="text"
+                                placeholder="E-Mail Address" pattern="[^ @]*@[^ @]*">
+                        </div>
+                        <div class="form-col">
+                            <input name="subject" class="form-control" id="subject" autocomplete="off" required="" type="text"
+                                placeholder="Subject">
+                        </div>
+                    </div>
+                    <textarea name="message" class="form-control" id="message" autocomplete="off" required="" placeholder="Your Message"
+                        rows="6"></textarea>
+                    <button class="border-button" id="form-submit" type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- end callback form -->
 </body>
 
 </html>
