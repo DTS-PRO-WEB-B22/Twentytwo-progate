@@ -702,15 +702,15 @@ textarea {
   background-color: #f7f7f7;
   padding: 60px 0px;
 }
-.partner-item {
-  float: left;
-  padding: 0 10px;
+.partners .container {
+    padding: 0 150px;
 }
-.flex-row {
-  padding: 20px 350px;
+.partners .container .flex-row {
+  display: flex;
 }
 
-.partners .owl-item {
+.partners .container .flex-row .partner-item {
+    width: 20%;
   text-align: center;
   cursor: pointer;
 }
@@ -718,4 +718,111 @@ textarea {
 .partners .partner-item img {
   max-width: 156px;
   margin: auto;
+}
+
+
+/* Footers */
+footer {
+  background-color: #232323;
+  padding: 80px 0;
+  color: #fff;
+}
+
+footer .container {
+  padding: 0 150px;
+}
+
+footer .container .flex-row {
+  display: flex;
+}
+
+footer .container .flex-row .flex-col {
+  width: 25%;
+  padding: 0 20px;
+}
+
+footer h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  margin-bottom: 35px;
+}
+
+footer p {
+  margin-bottom: 0px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+footer .container .flex-col ul.social-icons {
+  margin-top: 20px;
+}
+
+footer .container .flex-col ul.social-icons li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer .container .flex-col ul.social-icons li a{
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  line-height: 34px;
+  text-align: center;
+  background-color: #fff;
+  color: #232323;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+footer .container .flex-col ul.menu-list li {
+  margin-top: 7px;
+}
+
+footer .container .flex-col ul.menu-list li a {
+  color: #fff;
+}
+
+footer .container .flex-col .form-footer input.form-input {
+  width: 100%;
+  border-radius: 20px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  padding: 0px 15px;
+  color: #aaa;
+  background-color: #343434;
+  font-size: 13px;
+  text-transform: none;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 15px;
+}
+
+footer .container .flex-col .form-footer textarea.form-input {
+  width: 100%;
+  border-radius: 20px;
+  height: 120px;
+  max-height: 200px;
+  min-height: 120px;
+  display: inline-block;
+  padding: 15px;
+  color: #aaa;
+  background-color: #343434;
+  font-size: 13px;
+  text-transform: none;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 15px;
+}
+
+footer .container .flex-col .form-footer textarea.form-input::placeholder {
+  font-family: Poppins, sans-serif;
+  color: #b0b0b0;
+}
+
+footer .container .flex-col .form-footer input.form-input::placeholder {
+  font-family: Poppins, sans-serif;
+  color: #b0b0b0;
 }
